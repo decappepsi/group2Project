@@ -18,6 +18,9 @@
 		BDC6CE6D2886F70700EE8C1C /* group2ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE6C2886F70700EE8C1C /* group2ProjectUITests.swift */; };
 		BDC6CE6F2886F70700EE8C1C /* group2ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE6E2886F70700EE8C1C /* group2ProjectUITestsLaunchTests.swift */; };
 		BDC6CE7C28870CCD00EE8C1C /* ActivityRandomizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE7B28870CCD00EE8C1C /* ActivityRandomizerViewController.swift */; };
+		BDC6CE7E2887210500EE8C1C /* FlashcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE7D2887210500EE8C1C /* FlashcardViewController.swift */; };
+		BDC6CE802887212200EE8C1C /* RateYourDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE7F2887212200EE8C1C /* RateYourDayViewController.swift */; };
+		BDC6CE822887214800EE8C1C /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE812887214800EE8C1C /* LinksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		BDC6CE6C2886F70700EE8C1C /* group2ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = group2ProjectUITests.swift; sourceTree = "<group>"; };
 		BDC6CE6E2886F70700EE8C1C /* group2ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = group2ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BDC6CE7B28870CCD00EE8C1C /* ActivityRandomizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRandomizerViewController.swift; sourceTree = "<group>"; };
+		BDC6CE7D2887210500EE8C1C /* FlashcardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardViewController.swift; sourceTree = "<group>"; };
+		BDC6CE7F2887212200EE8C1C /* RateYourDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateYourDayViewController.swift; sourceTree = "<group>"; };
+		BDC6CE812887214800EE8C1C /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 				BDC6CE4A2886F70500EE8C1C /* SceneDelegate.swift */,
 				BDC6CE4C2886F70500EE8C1C /* ViewController.swift */,
 				BDC6CE4E2886F70500EE8C1C /* Main.storyboard */,
+				BDC6CE812887214800EE8C1C /* LinksViewController.swift */,
+				BDC6CE7F2887212200EE8C1C /* RateYourDayViewController.swift */,
+				BDC6CE7D2887210500EE8C1C /* FlashcardViewController.swift */,
 				BDC6CE7B28870CCD00EE8C1C /* ActivityRandomizerViewController.swift */,
 				BDC6CE542886F70700EE8C1C /* Assets.xcassets */,
 				BDC6CE562886F70700EE8C1C /* LaunchScreen.storyboard */,
@@ -267,8 +276,11 @@
 				BDC6CE7C28870CCD00EE8C1C /* ActivityRandomizerViewController.swift in Sources */,
 				BDC6CE532886F70500EE8C1C /* group2Project.xcdatamodeld in Sources */,
 				BDC6CE4D2886F70500EE8C1C /* ViewController.swift in Sources */,
+				BDC6CE802887212200EE8C1C /* RateYourDayViewController.swift in Sources */,
+				BDC6CE822887214800EE8C1C /* LinksViewController.swift in Sources */,
 				BDC6CE492886F70500EE8C1C /* AppDelegate.swift in Sources */,
 				BDC6CE4B2886F70500EE8C1C /* SceneDelegate.swift in Sources */,
+				BDC6CE7E2887210500EE8C1C /* FlashcardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
