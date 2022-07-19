@@ -17,6 +17,7 @@
 		BDC6CE632886F70700EE8C1C /* group2ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE622886F70700EE8C1C /* group2ProjectTests.swift */; };
 		BDC6CE6D2886F70700EE8C1C /* group2ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE6C2886F70700EE8C1C /* group2ProjectUITests.swift */; };
 		BDC6CE6F2886F70700EE8C1C /* group2ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE6E2886F70700EE8C1C /* group2ProjectUITestsLaunchTests.swift */; };
+		BDC6CE7C28870CCD00EE8C1C /* ActivityRandomizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE7B28870CCD00EE8C1C /* ActivityRandomizerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BDC6CE682886F70700EE8C1C /* group2ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = group2ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC6CE6C2886F70700EE8C1C /* group2ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = group2ProjectUITests.swift; sourceTree = "<group>"; };
 		BDC6CE6E2886F70700EE8C1C /* group2ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = group2ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDC6CE7B28870CCD00EE8C1C /* ActivityRandomizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRandomizerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				BDC6CE4A2886F70500EE8C1C /* SceneDelegate.swift */,
 				BDC6CE4C2886F70500EE8C1C /* ViewController.swift */,
 				BDC6CE4E2886F70500EE8C1C /* Main.storyboard */,
+				BDC6CE7B28870CCD00EE8C1C /* ActivityRandomizerViewController.swift */,
 				BDC6CE542886F70700EE8C1C /* Assets.xcassets */,
 				BDC6CE562886F70700EE8C1C /* LaunchScreen.storyboard */,
 				BDC6CE592886F70700EE8C1C /* Info.plist */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC6CE7C28870CCD00EE8C1C /* ActivityRandomizerViewController.swift in Sources */,
 				BDC6CE532886F70500EE8C1C /* group2Project.xcdatamodeld in Sources */,
 				BDC6CE4D2886F70500EE8C1C /* ViewController.swift in Sources */,
 				BDC6CE492886F70500EE8C1C /* AppDelegate.swift in Sources */,
