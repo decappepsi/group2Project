@@ -119,10 +119,10 @@
             </objects>
             <point key="canvasLocation" x="793" y="96"/>
         </scene>
-        <!--View Controller-->
+        <!--Flashcard View Controller-->
         <scene sceneID="ejV-A4-k4J">
             <objects>
-                <viewController id="CoR-Xg-lDM" sceneMemberID="viewController">
+                <viewController id="CoR-Xg-lDM" customClass="FlashcardViewController" customModule="group2Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3eb-oA-MHP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -141,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="1598" y="96"/>
         </scene>
-        <!--View Controller-->
+        <!--Rate Your Day View Controller-->
         <scene sceneID="SYq-yG-h9s">
             <objects>
-                <viewController id="e6V-Ra-yWa" sceneMemberID="viewController">
+                <viewController id="e6V-Ra-yWa" customClass="RateYourDayViewController" customModule="group2Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1h9-2z-bf2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,10 +163,10 @@
             </objects>
             <point key="canvasLocation" x="2413" y="96"/>
         </scene>
-        <!--View Controller-->
+        <!--Links View Controller-->
         <scene sceneID="vrO-6K-Yeo">
             <objects>
-                <viewController id="wqf-l3-YSI" sceneMemberID="viewController">
+                <viewController id="wqf-l3-YSI" customClass="LinksViewController" customModule="group2Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ywm-cH-bhd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
