@@ -30,14 +30,17 @@ class RateYourDayViewController: UIViewController {
     
     @IBAction func smileyFaceTapped(_ sender: Any) {
         message.text = "I'm glad you had a good day! Let's have an even better day tomorrow!"
+        moodEmoji = "💚​"
     }
     
     @IBAction func mehFaceTapped(_ sender: Any) {
         message.text = "I'm sure the day will get better!"
+        moodEmoji = "💛​"
     }
     
     @IBAction func sadFaceTapped(_ sender: Any) {
         message.text = "I'm sorry to hear that your day wasn't great. I hope you have a good day tomorrow."
+        moodEmoji = "​❤️​"
     }
     
     @IBAction func finishTapped(_ sender: Any) {
