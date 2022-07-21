@@ -28,7 +28,7 @@ class ToDoTableTableViewController: UITableViewController {
         
         if let name = ToDo.name {
             if let mood = ToDo.important {
-            cell.textLabel?.text = mood + name
+            cell.textLabel?.text = mood + " " + name
             } else {
                 cell.textLabel?.text = ToDo.name
             }
@@ -64,5 +64,18 @@ class ToDoTableTableViewController: UITableViewController {
                 tableView.reloadData()
         }
       }
+    }
+    
+    // delete function
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+            if editingStyle == .delete {
+                if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+                    context.delete(toDos[indexPath.row])
+                }
+
+                toDos.remove(at: indexPath.row)
+                
+                tableView.deleteRows(at: [indexPath], with: .fade)
+            }
     }
 }
