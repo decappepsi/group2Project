@@ -8,6 +8,84 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="Ha1-18-rLe">
+            <objects>
+                <viewController id="ndi-Oy-lc0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VBZ-ex-d6Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="wOU-pK-vRv">
+                                <rect key="frame" x="-80" y="0.0" width="575" height="923"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aahana" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5z-V2-UbW">
+                                <rect key="frame" x="49" y="427" width="102" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85882352939999995" green="0.74901960779999999" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_Aahana" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gKA-qv-pfI">
+                                <rect key="frame" x="20" y="267" width="161" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Caitie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92x-4m-i19">
+                                <rect key="frame" x="269" y="427" width="88" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85882352939999995" green="0.74901960779999999" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_Caitie" translatesAutoresizingMaskIntoConstraints="NO" id="BeL-yh-YEc">
+                                <rect key="frame" x="233" y="267" width="161" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valentina" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjl-7V-o99">
+                                <rect key="frame" x="254" y="689" width="117" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85882352939999995" green="0.74901960779999999" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_Valentina" translatesAutoresizingMaskIntoConstraints="NO" id="wd6-Fc-hMS">
+                                <rect key="frame" x="233" y="529" width="161" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Renaee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZ8-TC-Khq">
+                                <rect key="frame" x="49" y="689" width="102" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85882352939999995" green="0.74901960779999999" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_Renaee" translatesAutoresizingMaskIntoConstraints="NO" id="baA-8U-VQ6">
+                                <rect key="frame" x="20" y="529" width="161" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meet the Creators" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRu-qx-D5b">
+                                <rect key="frame" x="43" y="135" width="328" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.56862745100000001" green="0.42352941179999998" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="r7b-Qx-pbw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KCE-IJ-9YV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kxE-61-k6J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="915.94202898550736" y="-618.08035714285711"/>
+        </scene>
         <!--Journal-->
         <scene sceneID="SD4-gj-oas">
             <objects>
@@ -163,6 +241,15 @@
                                 <rect key="frame" x="82" y="254" width="251" height="164"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bo-vy-bia">
+                                <rect key="frame" x="121" y="254" width="168" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="ndi-Oy-lc0" kind="show" id="RY9-Xn-ogv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -238,10 +325,10 @@
             </objects>
             <point key="canvasLocation" x="1702.8985507246377" y="95.758928571428569"/>
         </scene>
-        <!--Anxiety Table View Controller-->
+        <!--Anxiety View Controller-->
         <scene sceneID="SrY-bv-xHq">
             <objects>
-                <viewController id="3UE-la-1g8" customClass="AnxietyTableViewController" customModule="group2Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3UE-la-1g8" customClass="AnxietyViewController" customModule="group2Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U3O-hG-mbS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -266,6 +353,9 @@
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="mainButton:" destination="3UE-la-1g8" eventType="touchUpInside" id="9jn-VH-uFf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hR-AR-i8Y">
                                 <rect key="frame" x="45" y="518" width="325" height="193"/>
@@ -290,6 +380,9 @@
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="effectsButton:" destination="3UE-la-1g8" eventType="touchUpInside" id="gDl-Pg-RHq"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbB-nr-4ac">
                                 <rect key="frame" x="18" y="308" width="379" height="156"/>
@@ -316,6 +409,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Rra-Tc-G9s"/>
+                    <connections>
+                        <outlet property="effectslabel" destination="0hR-AR-i8Y" id="3QV-1U-3eR"/>
+                        <outlet property="mainLabel" destination="zbB-nr-4ac" id="0bP-dA-rHF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dcV-Fh-6cC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -349,6 +446,9 @@
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="dissociativeMainButton:" destination="0bR-D6-JBo" eventType="touchUpInside" id="Qra-3u-rci"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YyZ-QM-4Kb">
                                 <rect key="frame" x="29" y="509" width="356" height="240"/>
@@ -392,12 +492,19 @@
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="dissociativeEffectsButton:" destination="0bR-D6-JBo" eventType="touchUpInside" id="Lmg-QP-jOH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9HX-3t-trU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="zXM-pM-pOh"/>
+                    <connections>
+                        <outlet property="dissociativeEffectsLabel" destination="YyZ-QM-4Kb" id="TMo-0J-5vx"/>
+                        <outlet property="dissociativeMainLabel" destination="Duk-XS-YqV" id="j9p-ce-mUE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rkd-en-Svb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -431,6 +538,9 @@
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="eatingMainButton:" destination="qZl-aq-aQQ" eventType="touchUpInside" id="OqP-Qp-chj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCH-Ml-Cjg">
                                 <rect key="frame" x="25" y="466" width="277" height="38"/>
@@ -440,6 +550,9 @@
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="eatingEffectsButton:" destination="qZl-aq-aQQ" eventType="touchUpInside" id="IsP-83-zHz"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGw-zE-vzl">
                                 <rect key="frame" x="25" y="512" width="369" height="220"/>
@@ -592,6 +705,10 @@ Cg
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Eum-BJ-8xq"/>
+                    <connections>
+                        <outlet property="eatingEffectsLabel" destination="WGw-zE-vzl" id="dme-5c-G4J"/>
+                        <outlet property="eatingMainLabel" destination="Hck-1B-p1D" id="XX5-SG-S78"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PBO-oG-Ge4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -625,6 +742,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ocdMainButton:" destination="qP6-cU-45x" eventType="touchUpInside" id="SIi-q4-9Ey"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLM-8M-A6I">
                                 <rect key="frame" x="25" y="449" width="277" height="38"/>
@@ -634,6 +754,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ocdEffectsButton:" destination="qP6-cU-45x" eventType="touchUpInside" id="zYJ-uT-UDZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jka-M8-AcL">
                                 <rect key="frame" x="44" y="476" width="327" height="247"/>
@@ -681,6 +804,10 @@ Cg
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="AJm-rE-g9H"/>
+                    <connections>
+                        <outlet property="ocdEffectsLabel" destination="Jka-M8-AcL" id="NqO-fd-ddW"/>
+                        <outlet property="ocdMainLabel" destination="3Db-Jf-lJA" id="2dr-ej-KKo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Put-Kr-U2L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -714,6 +841,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ptsdMainButton:" destination="jmG-WG-Xua" eventType="touchUpInside" id="eAe-E5-nBC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cT0-wP-tV0">
                                 <rect key="frame" x="20" y="464" width="277" height="38"/>
@@ -723,9 +853,47 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ptsdEffectsButton:" destination="jmG-WG-Xua" eventType="touchUpInside" id="hCi-39-mMg"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ea-EH-LXG">
+                                <rect key="frame" x="25" y="299" width="364" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Events that could lead to PTSD are serious accidents, physical or sexual assault, abuse, serious health problems, the death of someone close to you, war, and torture.</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="Kefa-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.12549020350000001" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="Kefa-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxl-c6-rfd">
-                                <rect key="frame" x="50" y="471" width="314" height="336"/>
+                                <rect key="frame" x="50" y="510" width="314" height="277"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -784,46 +952,15 @@ Cg
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ea-EH-LXG">
-                                <rect key="frame" x="25" y="299" width="364" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Events that could lead to PTSD are serious accidents, physical or sexual assault, abuse, serious health problems, the death of someone close to you, war, and torture.</string>
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="20" name="Kefa-Regular"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.12549020350000001" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="20" name="Kefa-Regular"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cWW-Uc-CyS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="2f4-xv-3Sa"/>
+                    <connections>
+                        <outlet property="ptsdEffectsLabel" destination="mxl-c6-rfd" id="dcX-m3-8k0"/>
+                        <outlet property="ptsdMainLabel" destination="8ea-EH-LXG" id="xds-hl-3ah"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="otz-Tf-6h9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -857,6 +994,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="schizoEffectsButton:" destination="SeW-GV-kDz" eventType="touchUpInside" id="3vW-h1-vee"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14O-Pc-WGl">
                                 <rect key="frame" x="25" y="256" width="222" height="38"/>
@@ -866,6 +1006,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="schizoMainButton:" destination="SeW-GV-kDz" eventType="touchUpInside" id="bR9-7Q-2Lj"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgM-9Y-GPX">
                                 <rect key="frame" x="69" y="493" width="277" height="266"/>
@@ -922,6 +1065,10 @@ Cg
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="62Y-wg-I36"/>
+                    <connections>
+                        <outlet property="schizoEffectsLabel" destination="hgM-9Y-GPX" id="k1t-XB-nNr"/>
+                        <outlet property="schizoMainLabel" destination="hf3-9w-x4a" id="ajE-ZD-Uj1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZ3-Lx-ScS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -955,6 +1102,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="autismCausesButton:" destination="80t-pY-Mkt" eventType="touchUpInside" id="ZnW-Gj-R7K"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Od7-qa-6bw">
                                 <rect key="frame" x="20" y="466" width="277" height="38"/>
@@ -964,6 +1114,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="autismEffectsButton:" destination="80t-pY-Mkt" eventType="touchUpInside" id="wyK-UW-W7B"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h91-ox-zab">
                                 <rect key="frame" x="23" y="512" width="366" height="193"/>
@@ -1004,6 +1157,10 @@ Cg
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="xgs-Zx-4U9"/>
+                    <connections>
+                        <outlet property="autismCausesLabel" destination="h91-ox-zab" id="kA2-Fz-9p8"/>
+                        <outlet property="autismMainLabel" destination="EKV-Zn-0wW" id="FSa-TO-TQK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xal-uf-87L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1037,6 +1194,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="bipolarMainButton:" destination="k0X-VH-UCD" eventType="touchUpInside" id="6oi-82-JfT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVH-7d-UH7">
                                 <rect key="frame" x="25" y="461" width="277" height="38"/>
@@ -1046,9 +1206,19 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="bipolarEffectsButton:" destination="k0X-VH-UCD" eventType="touchUpInside" id="b4E-yR-huV"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Combinations of genetics, environment, and altered brain structure and chemistry usually cause bipolar disorder." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jwo-lI-4Px">
+                                <rect key="frame" x="46" y="323" width="323" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRH-z7-slF">
-                                <rect key="frame" x="15" y="526" width="374" height="219"/>
+                                <rect key="frame" x="15" y="528" width="374" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="      - ">
@@ -1165,18 +1335,15 @@ Cg
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Combinations of genetics, environment, and altered brain structure and chemistry usually cause bipolar disorder." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jwo-lI-4Px">
-                                <rect key="frame" x="46" y="323" width="323" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VjJ-tm-Ym0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="JyK-UT-HFt"/>
+                    <connections>
+                        <outlet property="bipolarEffectsLable" destination="QRH-z7-slF" id="nRd-Og-9DB"/>
+                        <outlet property="bipolarMainLabel" destination="Jwo-lI-4Px" id="KLM-Wm-Esa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4SZ-wm-EXY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1210,6 +1377,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="borderlineMainButton:" destination="GIZ-4y-Wke" eventType="touchUpInside" id="UW2-24-ld8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8or-qD-RGf">
                                 <rect key="frame" x="30" y="446" width="277" height="38"/>
@@ -1219,6 +1389,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="borderlineEffectsButton:" destination="GIZ-4y-Wke" eventType="touchUpInside" id="Ec1-IA-1co"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfe-80-GPW">
                                 <rect key="frame" x="25" y="472" width="335" height="274"/>
@@ -1287,6 +1460,10 @@ Cg
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="tZU-tQ-okg"/>
+                    <connections>
+                        <outlet property="borderlineEffectsLabel" destination="jfe-80-GPW" id="I5w-kO-RXq"/>
+                        <outlet property="borderlineMainLabel" destination="pQI-qc-bxm" id="OWI-6g-AZZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="auJ-cs-aDG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1320,6 +1497,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="depressionMainButton:" destination="hyj-cd-zZo" eventType="touchUpInside" id="Qzc-Nc-9gw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYD-Zl-cwg">
                                 <rect key="frame" x="30" y="462" width="277" height="38"/>
@@ -1329,6 +1509,9 @@ Cg
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.78169942459999997" green="0.69101418059999997" blue="0.89944365530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="depressionEffectsButton:" destination="hyj-cd-zZo" eventType="touchUpInside" id="hvX-pD-wcw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omq-P2-cUe">
                                 <rect key="frame" x="36" y="496" width="342" height="190"/>
@@ -1387,6 +1570,10 @@ Cg
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Nqa-9A-T9L"/>
+                    <connections>
+                        <outlet property="depressionEffectsLabel" destination="omq-P2-cUe" id="oc3-Q1-8hm"/>
+                        <outlet property="depressionMainLabel" destination="6pm-eb-Adc" id="uam-u7-fFu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="st0-CD-yGa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1820,6 +2007,10 @@ Cg
         <image name="3" width="1080" height="1920"/>
         <image name="4" width="1080" height="1920"/>
         <image name="5" width="1080" height="1920"/>
+        <image name="IMG_Aahana" width="3494" height="5508"/>
+        <image name="IMG_Caitie" width="943" height="943"/>
+        <image name="IMG_Renaee" width="960" height="1792"/>
+        <image name="IMG_Valentina" width="1170" height="1558"/>
         <image name="Image from iOS" width="2048" height="2048"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

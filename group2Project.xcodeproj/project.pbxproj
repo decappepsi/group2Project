@@ -24,7 +24,7 @@
 		BDC6CE7E2887210500EE8C1C /* FlashcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE7D2887210500EE8C1C /* FlashcardViewController.swift */; };
 		BDC6CE802887212200EE8C1C /* RateYourDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE7F2887212200EE8C1C /* RateYourDayViewController.swift */; };
 		BDC6CE822887214800EE8C1C /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE812887214800EE8C1C /* LinksViewController.swift */; };
-		BDDA38802889F0E400864E93 /* AnxietyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA387F2889F0E400864E93 /* AnxietyTableViewController.swift */; };
+		BDDA38802889F0E400864E93 /* AnxietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA387F2889F0E400864E93 /* AnxietyViewController.swift */; };
 		BDDA38822889F12200864E93 /* AutismTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA38812889F12200864E93 /* AutismTableViewController.swift */; };
 		BDDA38842889F15900864E93 /* BipolarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA38832889F15900864E93 /* BipolarTableViewController.swift */; };
 		BDDA38862889F1B300864E93 /* BorderlineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA38852889F1B300864E93 /* BorderlineTableViewController.swift */; };
@@ -75,7 +75,7 @@
 		BDC6CE7D2887210500EE8C1C /* FlashcardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardViewController.swift; sourceTree = "<group>"; };
 		BDC6CE7F2887212200EE8C1C /* RateYourDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateYourDayViewController.swift; sourceTree = "<group>"; };
 		BDC6CE812887214800EE8C1C /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
-		BDDA387F2889F0E400864E93 /* AnxietyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyTableViewController.swift; sourceTree = "<group>"; };
+		BDDA387F2889F0E400864E93 /* AnxietyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyViewController.swift; sourceTree = "<group>"; };
 		BDDA38812889F12200864E93 /* AutismTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutismTableViewController.swift; sourceTree = "<group>"; };
 		BDDA38832889F15900864E93 /* BipolarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BipolarTableViewController.swift; sourceTree = "<group>"; };
 		BDDA38852889F1B300864E93 /* BorderlineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderlineTableViewController.swift; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 				BDDA38852889F1B300864E93 /* BorderlineTableViewController.swift */,
 				BDDA38832889F15900864E93 /* BipolarTableViewController.swift */,
 				BDDA38812889F12200864E93 /* AutismTableViewController.swift */,
-				BDDA387F2889F0E400864E93 /* AnxietyTableViewController.swift */,
+				BDDA387F2889F0E400864E93 /* AnxietyViewController.swift */,
 				BDC6CE472886F70500EE8C1C /* group2Project */,
 				BDC6CE612886F70700EE8C1C /* group2ProjectTests */,
 				BDC6CE6B2886F70700EE8C1C /* group2ProjectUITests */,
@@ -327,7 +327,7 @@
 				BDC6CE532886F70500EE8C1C /* group2Project.xcdatamodeld in Sources */,
 				BDDA38922889F32C00864E93 /* SchizoTableViewController.swift in Sources */,
 				BD6695E3288AD85A002AF575 /* DetailViewController.swift in Sources */,
-				BDDA38802889F0E400864E93 /* AnxietyTableViewController.swift in Sources */,
+				BDDA38802889F0E400864E93 /* AnxietyViewController.swift in Sources */,
 				BDC6CE4D2886F70500EE8C1C /* ViewController.swift in Sources */,
 				BDDA388E2889F2A600864E93 /* OCDTableViewController.swift in Sources */,
 				BDDA388A2889F26200864E93 /* DissocTableViewController.swift in Sources */,
