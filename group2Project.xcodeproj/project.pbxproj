@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD41668528885AD9006F70E9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41668428885AD9006F70E9 /* TableViewController.swift */; };
 		BD41668728885B14006F70E9 /* toDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41668628885B14006F70E9 /* toDo.swift */; };
+		BD6695E3288AD85A002AF575 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6695E2288AD85A002AF575 /* DetailViewController.swift */; };
 		BDC6CE492886F70500EE8C1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE482886F70500EE8C1C /* AppDelegate.swift */; };
 		BDC6CE4B2886F70500EE8C1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE4A2886F70500EE8C1C /* SceneDelegate.swift */; };
 		BDC6CE4D2886F70500EE8C1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6CE4C2886F70500EE8C1C /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		BD41668428885AD9006F70E9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		BD41668628885B14006F70E9 /* toDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDo.swift; sourceTree = "<group>"; };
+		BD6695E2288AD85A002AF575 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BDC6CE452886F70500EE8C1C /* group2Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = group2Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC6CE482886F70500EE8C1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC6CE4A2886F70500EE8C1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				BD41668628885B14006F70E9 /* toDo.swift */,
 				BDC6CE7B28870CCD00EE8C1C /* ActivityRandomizerViewController.swift */,
 				BDC6CE812887214800EE8C1C /* LinksViewController.swift */,
+				BD6695E2288AD85A002AF575 /* DetailViewController.swift */,
 			);
 			path = "Journal Stuff";
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				BDC6CE7C28870CCD00EE8C1C /* ActivityRandomizerViewController.swift in Sources */,
 				BDC6CE532886F70500EE8C1C /* group2Project.xcdatamodeld in Sources */,
 				BDDA38922889F32C00864E93 /* SchizoTableViewController.swift in Sources */,
+				BD6695E3288AD85A002AF575 /* DetailViewController.swift in Sources */,
 				BDDA38802889F0E400864E93 /* AnxietyTableViewController.swift in Sources */,
 				BDC6CE4D2886F70500EE8C1C /* ViewController.swift in Sources */,
 				BDDA388E2889F2A600864E93 /* OCDTableViewController.swift in Sources */,

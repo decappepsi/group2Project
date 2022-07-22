@@ -7,6 +7,8 @@
 
 import UIKit
 
+public var fullScreenNote = "Label"
+
 class ToDoTableTableViewController: UITableViewController {
 
     var toDos : [ToDoCD] = []
@@ -78,4 +80,16 @@ class ToDoTableTableViewController: UITableViewController {
                 tableView.deleteRows(at: [indexPath], with: .fade)
             }
     }
+    
+    //for updating the label to show the text from the entry the user selected
+    //use the "didSelectRowAt" override func tableView that is preloaded into swift
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //access your core data
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            //update your public variable to store the string of the user's journal entry
+            fullScreenNote = toDos[indexPath.row].name!
+            //update the label outlet on the next view controller
+        }
+    }
+
 }
